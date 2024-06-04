@@ -10,7 +10,7 @@ export const RegisterContainer = styled.div`
 export const RegisterWrapper = styled.div`
   background-color: white;
   max-width: 750px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  box-shadow: 0 20px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   padding: 50px;
   border-radius: 15px;
   display: flex;
@@ -45,11 +45,12 @@ export const RegisterButton = styled.button`
   height: 30px;
   border-radius: 6px;
   border-width: 0px;
-  background-color: #ff6200;
+  background-color: #4169e1;
   color: white;
   font-size: 15px;
+  margin-top: 15px;
 
   &:hover {
-    background-color: #ff8800;
+    background-color: #1e90ff;
   }
 `;

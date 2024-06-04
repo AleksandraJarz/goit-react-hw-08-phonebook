@@ -9,6 +9,8 @@ export const ContactFormUi = styled.form`
   gap: 30px;
   flex-direction: column;
   border: 2px black solid;
+  border-radius: 15px;
+  background-color: ;
 `;
 export const ContactFormLabel = styled.label`
   display: flex;
@@ -33,11 +35,12 @@ export const ContactAddButton = styled.button`
   height: 30px;
   padding: 2px;
   font-size: 20px;
-  background-color: #0086d4;
+  background-color: #6495ed;
   border-radius: 10px;
   border: 0px;
+
   &:hover {
-    background-color: #1700d4;
+    background-color: #4169e1;
     color: white;
   }
 `;

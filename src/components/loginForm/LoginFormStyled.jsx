@@ -45,11 +45,12 @@ export const LoginButton = styled.button`
   height: 30px;
   border-radius: 6px;
   border-width: 0px;
-  background-color: #ff6200;
+  background-color: #4169e1;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
+  margin-top: 15px;
 
   &:hover {
-    background-color: #ff8800;
+    background-color: #1e90ff;
   }
 `;

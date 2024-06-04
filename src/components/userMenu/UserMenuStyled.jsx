@@ -11,15 +11,15 @@ export const UserMenuContainer = styled.div`
 export const HeaderLink = styled(NavLink)`
   padding: 5px;
   margin-left: 5px;
-  max-height: 30px;
+  max-height: 25px;
   border-radius: 6px;
   border-width: 0px;
-  background-color: red;
+  background-color: #4169e1;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   text-direction: none;
 
   &:hover {
-    background-color: #ff8800;
+    background-color: #1e90ff;
   }
 `;
