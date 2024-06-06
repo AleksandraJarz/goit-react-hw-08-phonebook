@@ -17,7 +17,6 @@ export const register = createAsyncThunk(
       setAuthHeader(res.data.token);
       return res.data;
     } catch (err) {
-      window.alert('password too weak');
       return thunkAPI.rejectWithValue(err.message);
     }
   }
